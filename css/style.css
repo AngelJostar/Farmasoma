@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    background-image: linear-gradient(to top, white 0%, white 100%);
     min-height: 100%;
     margin: 0 auto;
 }
@@ -199,3 +199,43 @@ img {
 
 
 /*END MAIN-PAGINA PRICIPAL*/
+
+
+/*INICIO PROPOSITOS FARMASOMA*/
+
+.banner-propositos {
+    position: relative;
+}
+
+.boton-contactanos-header-propositos {
+    position: absolute;
+    top: 76%;
+    left: 3%;
+}
+
+.box-contenedor-propositos {
+    padding-top: calc(1.2rem + 1vw);
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.pad-top-2rem {
+    padding-top: calc(2rem + 1.4vw);
+}
+
+.box-contenedor-propositos h2 {
+    color: var(--azul-rey);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bolder;
+    font-size: calc(.7rem + 2.8vw);
+}
+
+.box-contenedor-propositos p {
+    color: var(--azul-rey);
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: justify;
+    font-size: calc(.6rem + 1.4vw);
+}
+
+
+/*FIN PROPOSITOS FARMASOMA*/

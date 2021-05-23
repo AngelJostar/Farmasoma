@@ -74,6 +74,14 @@ img {
     border-style: none
 }
 
+p {
+    margin: 0 !important;
+}
+
+h2 {
+    margin: 0;
+}
+
 button,
 input,
 optgroup,
