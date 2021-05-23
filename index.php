@@ -51,9 +51,7 @@
             <p>Visión</p>
             <p>Valores</p>
         </div>
-        <div class="pastillas-inferior">
-            <img src="/img/DECORACION-LARGA-FIN.png" alt="Decoración Larga Fin">
-        </div>
+  
         
     </div>
     <?php include_once 'includes/templates/footer.php';?>
