@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to top, white 0%, white 100%);
+    background-image: linear-gradient(to top, #ffffff 0%, white 100%);
     min-height: 100%;
     margin: 0 auto;
 }
@@ -168,6 +168,17 @@ img {
 
 /*MAIN-PAGINA PRICIPAL*/
 
+.contenedor-main {
+    position: relative;
+}
+
+.capsulas-farmasoma {
+    max-width: 50%;
+    position: absolute;
+    top: calc(-22.5em + 1vw);
+    left: calc(18em + 1vw);
+}
+
 .blue-box {
     background-color: var(--azul-rey);
     padding-bottom: calc(3em + 1vw);
@@ -180,6 +191,7 @@ img {
     max-width: 100%;
     position: relative;
     top: 2rem;
+    opacity: 0.95;
 }
 
 .blue-box h1 {
@@ -189,12 +201,55 @@ img {
     line-height: 1.15;
     color: var(--gris-opaco);
     letter-spacing: 0.1rem;
-    font-size: 2.1rem;
-    padding: 2rem;
+    font-size: calc(1.8em + 1vw);
+    padding: calc(0.8em + 1vw) calc(1em + 1vw) calc(1em + 1vw) 0;
+    padding-bottom: 0;
+}
+
+.blue-box h3 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: calc(0.5em + 1vw);
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+    max-width: 89%;
+    margin: 0 auto;
+    word-spacing: 0.3rem;
 }
 
 .blue-box span {
-    color: rgba(255, 255, 255, 0.918);
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.blanco-transparente {
+    color: rgb(255, 255, 255, 0.82) !important;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-upper {
+    text-transform: uppercase;
+}
+
+.principal-text {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.principal-text h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.15;
+    color: var(--gris-opaco);
+    letter-spacing: 0.1rem;
+    font-size: calc(1.8em + 1vw);
+}
+
+.principal-text span {
+    color: var(--azul-rey) !important;
 }
 
 
@@ -239,3 +294,20 @@ img {
 
 
 /*FIN PROPOSITOS FARMASOMA*/
+
+.principal-text p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    color: var(--azul-rey);
+    font-size: calc(0.8em + 1vw);
+}
+
+
+/*END MAIN-PAGINA PRICIPAL*/
+
+
+/*PAGINA PRINCIPAL SEGUNDO DIV */
+
+.pastillas-inferior {
+    position: relative;
+}

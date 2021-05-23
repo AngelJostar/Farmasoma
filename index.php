@@ -22,30 +22,39 @@
         <button class="custom-btn btn-14">Contáctanos</button>
         </div>
     </div>
-    <main>
+    <main class="contenedor-main">
         <section class="blue-box">
             <div>
                 <img src="/img/capsulas-farmasoma.jpeg" alt="Capsulas de farmasoma">
             </div>
             <div>
                 <h1><span>Comprometidos</span> <br> con la salud</h1>
-                <h3>Somos un grupo empresarial farmacéutico enfocado en la distribución de medicamento de alta especialidad.</h3>
+                <h3><span class="font-bold ">Somos un grupo empresarial farmacéutico</span><span class="blanco-transparente"> enfocado en la distribución de medicamento de alta especialidad.</span></h3>
             </div>
         </section>
-        <section>
-            <h2>Firme propósito de garantizar la mejor calidad en el servicio</h2>
-            <p>Con un enfoque de calidad y firme propósito de mantenernos entre los primeros puestos del sector de la distribución farmacéutica a nivel nacional así como la distribución de preparaciones estériles oncológicas.</p>
+        <div class="capsulas-farmasoma">
+            <img src="/img/capsulas-farmasoma-proposito.png" alt="Capsulas de farmasoma proposito">
+        </div>
+        <section class="principal-text">
+            <div>
+                <h2><span>Firme propósito</span> <br> de garantizar la <br> mejor calidad en el servicio</h2>
+            </div>
+            <div>
+                <p>Con un enfoque de calidad y firme propósito de mantenernos entre los primeros puestos del sector de la distribución farmacéutica a nivel nacional así como la distribución de preparaciones estériles oncológicas.</p>
+            </div>
         </section>
+
     </main>
-    <div>
-        <img src="/img/capsulas-farmasoma-proposito.png" alt="Capsulas de farmasoma proposito">
-    </div>
-    <div>
-        <p>Misión</p>
-        <p>Visión</p>
-        <p>Valores</p>
-        <p>Contáctanos</p>
-        <img src="/img/DECORACION-LARGA-FIN.png" alt="Decoración Larga Fin">
+    <div class="contenedor-main">
+        <div>
+            <p>Misión</p>
+            <p>Visión</p>
+            <p>Valores</p>
+        </div>
+        <div class="pastillas-inferior">
+            <img src="/img/DECORACION-LARGA-FIN.png" alt="Decoración Larga Fin">
+        </div>
+        
     </div>
     <?php include_once 'includes/templates/footer.php';?>
     <script src="https://kit.fontawesome.com/3919625d45.js" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/3919625d45.js" crossorigin="anonymous"></script>
