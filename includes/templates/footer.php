@@ -1,5 +1,5 @@
 <footer class="contenedor-footer">
-    <div>
+    <div class="decoracion-larga-fin">
         <img src="/img/DECORACION-LARGA-FIN.png" alt="Decoración Larga Fin">
     </div>
     <div class="">

@@ -5,7 +5,7 @@
     --gris-fuerte: #b2b2b2;
     --gris-opaco: #b2b2b2b9;
     --gris-claro: #ededed;
-    --azul-rey: #002e64;
+    --azul-rey: #002f64;
     --azul-footer: #00a2b0;
 }
 
@@ -175,8 +175,8 @@ img {
 .capsulas-farmasoma {
     max-width: 50%;
     position: absolute;
-    top: calc(-22.5em + 1vw);
-    left: calc(18em + 1vw);
+    top: 40%;
+    left: 45%;
 }
 
 .blue-box {
@@ -273,6 +273,7 @@ img {
     padding-top: calc(1.2rem + 1vw);
     max-width: 75%;
     margin: 0 auto;
+    padding-bottom: 20%;
 }
 
 .pad-top-2rem {
@@ -302,6 +303,7 @@ img {
     color: var(--azul-rey);
     font-size: calc(0.8em + 1vw);
     padding-top: 1.4rem;
+    max-width: 80%;
 }
 
 
@@ -319,7 +321,8 @@ img {
 
 .contenedor-footer {
     max-width: 100%;
-    position: absolute;
+    margin: 0 auto;
+    position: relative;
 }
 
 .top-footer {
@@ -366,4 +369,58 @@ img {
     font-weight: 400;
     justify-content: left;
     padding-left: 2rem;
+}
+
+.contenedor-propositos {
+    width: 100%;
+    position: relative;
+}
+
+.propositos-grid {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    text-align: center;
+    top: 30%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.pastillas-farmasoma {
+    position: relative;
+    z-index: -1;
+}
+
+.decoracion-larga-fin {
+    position: absolute;
+    bottom: 100%;
+}
+
+.fondo-mision {
+    background-image: linear-gradient( rgba(0, 47, 100, 1), rgba(0, 47, 100, 0.8)), url(../img/capsulas-farmasoma.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    border-radius: 50%;
+    height: 60%;
+}
+
+.fondo-vision {
+    background-image: linear-gradient( rgba(0, 47, 100, 1), rgba(0, 47, 100, 0.8)), url(../img/capsulas-colores.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border-radius: 50%;
+    height: 60%;
+}
+
+.fondo-valores {
+    background-image: linear-gradient( rgba(0, 47, 100, 1), rgba(0, 47, 100, 0.8)), url(../img/pastillas-blancas.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border-radius: 50%;
+    height: 60%;
 }
