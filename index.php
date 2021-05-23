@@ -48,15 +48,21 @@
         </main>
         <div class="contenedor-propositos">
             <div class="propositos-grid">
-                <div class="fondo-mision backgroud-image">
-                    <p>Misión</p>
-                </div>
-                <div class="fondo-vision">
-                    <p>Visión</p>
-                </div>
-                <div class="fondo-valores">
-                    <p>Valores</p>
-                </div>
+                <a href="">
+                    <div class="fondo-mision backgroud-image">
+                        <p>Misión</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="fondo-vision">
+                        <p>Visión</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="fondo-valores">
+                        <p>Valores</p>
+                    </div>
+                </a>
             </div>
             <div class="pastillas-farmasoma">
                 <img src="/img/pastillas-farmasoma.png" alt="Pastillas Farmasoma">

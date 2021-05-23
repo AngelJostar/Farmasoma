@@ -1,7 +1,7 @@
 <header>
     <div class="header-padre">
         <div class="logo">
-            <img src="/img/Logo-Farmasoma.jpg" alt="Logo Farmasoma">
+            <a href=""><img src="/img/Logo-Farmasoma.jpg" alt="Logo Farmasoma"></a>
         </div>
         <div class="redes-sociales-header">
             <a href=""><i class="fab fa-facebook-f"></i></a>
