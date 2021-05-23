@@ -19,7 +19,7 @@
             <img src="/img/DECORACION-LARGA.png" alt="Decoración Larga">
         </div>
         <div class="boton-contactanos-header">
-        <button class="custom-btn btn-14">Contáctanos</button>
+            <button class="custom-btn btn-14">Contáctanos</button>
         </div>
     </div>
     <div class="contenedor-principal">
@@ -61,7 +61,9 @@
             <div class="pastillas-farmasoma">
                 <img src="/img/pastillas-farmasoma.png" alt="Pastillas Farmasoma">
             </div>
-
+            <div class="index-contactanos">
+                <button class="custom-btn btn-14">Contáctanos</button>
+            </div>
         </div>
     </div>
     <?php include_once 'includes/templates/footer.php';?>

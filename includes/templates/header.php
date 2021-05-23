@@ -4,10 +4,10 @@
             <img src="/img/Logo-Farmasoma.jpg" alt="Logo Farmasoma">
         </div>
         <div class="redes-sociales-header">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-linkedin-in"></i>
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
         </div>
     </div>
 </header>

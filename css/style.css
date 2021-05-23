@@ -326,31 +326,32 @@ img {
 }
 
 .top-footer {
-    padding: 1.1rem 0;
+    padding: 0.5rem 0;
     display: grid;
     grid-template-columns: 60% 1% 40%;
-    border-radius: 15px;
+    background: #eae7e7;
 }
 
 .deep-footer {
-    font-size: 0.9rem;
+    font-size: calc(0.7em + 1vw);
     color: rgba(255, 255, 255, 0.787);
     background: gray;
-    height: 1.7rem;
+    height: calc(2em + 1vw);
     display: flex;
     justify-content: left;
     align-items: center;
-    padding-left: 3rem;
+    padding-left: calc(1.1em + 1vw);
 }
 
 .linea-azul {
     background-color: var(--azul-footer);
     max-width: 1.2px;
-    max-height: 3rem;
+    max-height: calc(5rem + 1vw);
 }
 
 .redes-footer {
     display: flex;
+    gap: 1.7em;
     justify-content: center;
     align-items: center;
 }
@@ -360,15 +361,16 @@ img {
 }
 
 .redes-footer i {
-    font-size: 1.6rem;
+    font-size: calc(1.6em + 1vw);
     color: var(--azul-footer);
 }
 
 .text-footer {
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 400;
+    font-size: calc(0.6em + 1vw);
     justify-content: left;
-    padding-left: 2rem;
+    padding-left: calc(1.4em + 1vw);
 }
 
 .contenedor-propositos {
@@ -377,15 +379,24 @@ img {
 }
 
 .propositos-grid {
+    padding-left: 2rem;
+    padding-right: 2rem;
     position: absolute;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
     text-align: center;
-    top: 30%;
+    padding-top: 1.5em;
+    top: 5%;
     bottom: 0;
     right: 0;
     left: 0;
+}
+
+.propositos-grid p {
+    font-family: 'Anton', sans-serif;
+    font-size: calc(1.5em + 1vw);
+    color: rgb(255, 255, 255);
 }
 
 .pastillas-farmasoma {
@@ -396,15 +407,19 @@ img {
 .decoracion-larga-fin {
     position: absolute;
     bottom: 100%;
+    right: 0;
 }
 
 .fondo-mision {
     background-image: linear-gradient( rgba(0, 47, 100, 1), rgba(0, 47, 100, 0.8)), url(../img/capsulas-farmasoma.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 200%;
+    background-size: 150%;
     border-radius: 50%;
-    height: 60%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fondo-vision {
@@ -413,14 +428,26 @@ img {
     background-repeat: no-repeat;
     background-size: 150%;
     border-radius: 50%;
-    height: 60%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fondo-valores {
-    background-image: linear-gradient( rgba(0, 47, 100, 1), rgba(0, 47, 100, 0.8)), url(../img/pastillas-blancas.jpg);
+    background-image: linear-gradient( rgba(0, 47, 100, 1), rgba(0, 47, 100, 0.8)), url(../img/capsulas-colores.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 150%;
     border-radius: 50%;
-    height: 60%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-contactanos {
+    position: absolute;
+    top: 67%;
+    left: 5%;
 }
