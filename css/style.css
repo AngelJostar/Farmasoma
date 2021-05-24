@@ -1,480 +1,902 @@
-    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;1,700&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-     :root {
-        --gris-fuerte: #b2b2b2;
-        --gris-fuerte-transparente: #dedfe0;
-        --gris-opaco: #b2b2b2b9;
-        --gris-claro: #ededed;
-        --gris-muy-claro: #f1f1f5;
-        --azul-rey: #002e64;
-        --azul-footer: #00a2b0;
-    }
-    
-    html {
-        box-sizing: border-box;
-        font-size: 62.5%
-    }
-    
-    *,
-     :after,
-     :before {
-        box-sizing: inherit
-    }
-    
-    body {
-        background-image: linear-gradient(to top, #ffffff 0%, white 100%);
-        min-height: 100%;
-        margin: 0 auto;
-    }
-    
-    img {
-        width: 100%;
-        display: block;
-        margin: 0 auto
-    }
-    
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+:root {
+    --gris-fuerte: #b2b2b2;
+    --gris-opaco: #b2b2b2b9;
+    --gris-claro: #ededed;
+    --azul-rey: #002f64;
+    --azul-footer: #00a2b0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit
+}
+
+body {
+    background-image: linear-gradient(to top, #ffffff 0%, white 100%);
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: 0 auto
+}
+
+.contenedor-principal {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width:580px) {
     .contenedor-principal {
-        max-width: 100%;
-        margin: 0 auto;
+        max-width: 70%;
     }
-    
-    @media (min-width:580px) {
-        .contenedor-principal {
-            max-width: 70%;
-        }
-    }
-    /*HEADER*/
-    
-    .header-padre {
-        display: grid;
-        grid-template-columns: 60% 40%;
-    }
-    
-    .logo {
-        max-width: 85%;
-        padding: calc(1.1rem + 1vw) 0 calc(1.1rem + 1vw) calc(1.5rem + 1vw);
-    }
-    
+}
+
+
+/*HEADER*/
+
+.header-padre {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.logo {
+    max-width: 85%;
+    padding: calc(1.1rem + 1vw) 0 calc(1.1rem + 1vw) calc(1.5rem + 1vw);
+}
+
+.redes-sociales-header {
+    padding-top: calc(1.1rem + 1vw);
+    padding-left: calc(5rem + 1vw);
+}
+
+@media (min-width:580px) {
     .redes-sociales-header {
-        padding-top: calc(1.1rem + 1vw);
-        padding-left: calc(5rem + 1vw);
+        padding-left: calc(10rem + 1vw);
     }
-    
-    @media (min-width:580px) {
-        .redes-sociales-header {
-            padding-left: calc(10rem + 1vw);
-        }
-    }
-    
-    .redes-sociales-header i {
-        color: var(--gris-fuerte);
-        font-size: calc(0.8rem + 2vw);
-        margin-right: calc(0.2rem + 1vw);
-    }
-    /*END HEADER*/
-    /*CONTACTO BANNER*/
-    
-    .contenedor-banner {
-        position: relative;
-    }
-    
-    .decoracion-larga {
-        position: absolute;
-        top: 0;
-    }
-    
-    .banner-principal {
-        position: relative;
-    }
-    
-    .boton-contactanos-header {
-        position: absolute;
-        top: 67%;
-        left: 3%;
-    }
-    /* 11 */
-    
-    .custom-btn {
-        width: calc(11em + 1vw);
-        height: calc(2em + 1vw);
-        color: #fff;
-        border-radius: 2px;
-        font-family: 'Alegreya Sans', sans-serif;
-        font-weight: 700;
-        letter-spacing: 0.1rem;
-        font-size: calc(0.6rem + 1vw);
-        cursor: pointer;
-        transition: all 0.3s ease;
-        position: relative;
-        display: inline-block;
-        outline: none;
-    }
-    /* 14 */
-    
-    .btn-14 {
-        background: var(--azul-rey);
-        border: none;
-        z-index: 1;
-    }
-    
-    .btn-14:after {
-        position: absolute;
-        content: "";
-        width: 100%;
-        height: 0;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        border-radius: 2px;
-        background-color: var(--azul-footer);
-        background-image: linear-gradient(315deg, var(--azul-footer) 0%, var(--azul-rey) 74%);
-        7px 7px 20px 0px rgba(0,
-        0,
-        0,
-        .1),
-        4px 4px 5px 0px rgba(0,
-        0,
-        0,
-        .1);
-        transition: all 0.3s ease;
-    }
-    
-    .btn-14:hover {
-        color: rgb(255, 255, 255);
-    }
-    
-    .btn-14:hover:after {
-        top: auto;
-        bottom: 0;
-        height: 100%;
-    }
-    
-    .btn-14:active {
-        top: 2px;
-    }
-    /*END CONTACTO BANNER*/
-    /*MAIN-PAGINA PRICIPAL*/
-    
-    .contenedor-main {
-        position: relative;
-    }
-    
-    .capsulas-farmasoma {
-        max-width: 50%;
-        position: absolute;
-        top: calc(-22.5em + 1vw);
-        left: calc(18em + 1vw);
-    }
-    
-    .blue-box {
-        background-color: var(--azul-rey);
-        padding-bottom: calc(3em + 1vw);
-        max-width: 100%;
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-    
-    .blue-box img {
-        max-width: 100%;
-        position: relative;
-        top: 2rem;
-        opacity: 0.95;
-    }
-    
-    .blue-box h1 {
-        font-family: 'Anton', sans-serif;
-        font-weight: 400;
-        text-align: right;
-        line-height: 1.15;
-        color: var(--gris-opaco);
-        letter-spacing: 0.1rem;
-        font-size: calc(1.8em + 1vw);
-        padding: calc(0.8em + 1vw) calc(1em + 1vw) calc(1em + 1vw) 0;
-        padding-bottom: 0;
-    }
-    
-    .blue-box h3 {
-        font-family: 'Alegreya Sans', sans-serif;
-        font-size: calc(0.5em + 1vw);
-        font-weight: 400;
-        color: #fff;
-        text-align: left;
-        max-width: 89%;
-        margin: 0 auto;
-        word-spacing: 0.3rem;
-    }
-    
-    .blue-box span {
-        color: rgba(255, 255, 255, 0.85);
-    }
-    
-    .blanco-transparente {
-        color: rgb(255, 255, 255, 0.82) !important;
-    }
-    
-    .font-bold {
-        font-weight: bold;
-    }
-    
-    .font-upper {
-        text-transform: uppercase;
-    }
-    
-    .principal-text {
-        max-width: 90%;
-        margin: 0 auto;
-        padding-top: 2rem;
-    }
-    
-    .principal-text h2 {
-        font-family: 'Anton', sans-serif;
-        font-weight: 400;
-        text-align: left;
-        line-height: 1.15;
-        color: var(--gris-opaco);
-        letter-spacing: 0.1rem;
-        font-size: calc(1.8em + 1vw);
-    }
-    
-    .principal-text span {
-        color: var(--azul-rey) !important;
-    }
-    /*END MAIN-PAGINA PRICIPAL*/
-    /*INICIO PROPOSITOS FARMASOMA*/
-    
-    .banner-propositos {
-        position: relative;
-    }
-    
-    .boton-contactanos-header-propositos {
-        position: absolute;
-        top: 76%;
-        left: 3%;
-    }
-    
-    .box-contenedor-propositos {
-        padding-top: calc(1.2rem + 1vw);
-        max-width: 75%;
-        margin: 0 auto;
-    }
-    
-    .pad-top-2rem {
-        padding-top: calc(2rem + 1.4vw);
-    }
-    
-    .box-contenedor-propositos h2 {
-        color: var(--azul-rey);
-        font-family: 'Alegreya Sans', sans-serif;
-        font-weight: bolder;
-        font-size: calc(.7rem + 2.8vw);
-    }
-    
-    .box-contenedor-propositos p {
-        color: var(--azul-rey);
-        font-family: 'Alegreya Sans', sans-serif;
-        text-align: justify;
-        font-size: calc(.6rem + 1.4vw);
-    }
-    /*FIN PROPOSITOS FARMASOMA*/
-    
-    .principal-text p {
-        font-family: 'Alegreya Sans', sans-serif;
-        font-weight: 700;
-        color: var(--azul-rey);
-        font-size: calc(0.8em + 1vw);
-        padding-top: 1.4rem;
-    }
-    /*END MAIN-PAGINA PRICIPAL*/
-    /*PAGINA PRINCIPAL SEGUNDO DIV */
-    
-    .pastillas-inferior {
-        position: relative;
-    }
-    /*footer*/
-    
-    .contenedor-footer {
-        max-width: 100%;
-        position: absolute;
-    }
-    
-    .top-footer {
-        padding: 1.1rem 0;
-        display: grid;
-        grid-template-columns: 60% 1% 40%;
-        border-radius: 15px;
-    }
-    
-    .deep-footer {
-        font-size: 0.9rem;
-        color: rgba(255, 255, 255, 0.787);
-        background: gray;
-        height: 1.7rem;
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        padding-left: 3rem;
-    }
-    
-    .linea-azul {
-        background-color: var(--azul-footer);
-        max-width: 1.2px;
-        max-height: 3rem;
-    }
-    
-    .redes-footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .redes-footer i:not(:first-of-type) {
-        padding-left: 1.5rem;
-    }
-    
-    .redes-footer i {
-        font-size: 1.6rem;
-        color: var(--azul-footer);
-    }
-    
-    .text-footer {
-        font-family: 'Alegreya Sans', sans-serif;
-        font-weight: 400;
-        justify-content: left;
-        padding-left: 2rem;
-    }
-    /*CONTACTO*/
-    /** Contacto **/
-    
-    .posicion-relativa {
-        position: relative;
-        max-width: 100%;
-    }
-    
-    .blue-box-contacto {
-        background-color: var(--azul-rey);
-        max-width: 100%;
-        position: absolute;
-        right: 0;
-        left: 0;
-        top: 5%;
-        padding: .5em;
-    }
-    
-    .blue-box-contacto h2 {
-        font-family: 'Anton', sans-serif;
-        font-weight: 400;
-        text-align: center;
-        color: white;
-        font-size: calc(1.5em + 1vw);
-        padding-bottom: 0;
-    }
-    
-    .formulario {
-        background-color: rgba(60, 60, 59, .10);
-        margin: 2rem auto;
-        width: 80%;
-        padding: calc(6.5rem + 3.5vw) calc(1.5rem + 1vw) calc(2rem + 6vw);
-        border-radius: 2%;
-        font-size: 1.7rem;
-        font-family: 'Alegreya Sans', sans-serif;
-        position: relative;
-    }
-    
-    .campo {
-        display: flex;
-        margin-bottom: 1rem;
-        padding: .7rem 1rem;
-        width: 100%;
-        background-color: rgba(60, 60, 59, .25);
-        border-radius: 5px;
-        height: 3em;
-    }
-    
-    .campo span {
-        background-color: white;
-        border-radius: 50%;
-        min-width: 40px;
-        min-height: 40px;
-        color: var(--azul-rey);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: calc(.5rem + 1vw);
-        font-size: calc(1.7rem + 1vh);
-    }
-    
-    .campo-2 {
-        display: flex;
-        margin-bottom: 1rem;
-        padding: .7rem 1rem;
-        width: 100%;
-        background-color: rgba(60, 60, 59, .25);
-        border-radius: 5px;
-        height: 8em;
-    }
-    
-    .campo-2 span {
-        background-color: white;
-        border-radius: 50%;
-        min-width: 40px;
-        max-height: 40px;
-        color: var(--azul-rey);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: calc(.5rem + 1vw);
-        font-size: calc(1.7rem + 1vh);
-    }
-    
-    .formulario input::placeholder {
-        color: var(--azul-rey);
-        font-family: 'Alegreya Sans', sans-serif;
-        font-weight: 600;
-        font-size: 1.3rem;
-    }
-    
-    .formulario textarea::placeholder {
-        color: var(--azul-rey);
-        font-family: 'Alegreya Sans', sans-serif;
-        font-weight: 600;
-        font-size: 1.3rem;
-        padding-top: calc(.5rem + 1vw);
-        margin: 1rem .5rem;
-    }
-    
-    .campo__field {
-        border-radius: 5%;
-        background-color: rgba(60, 60, 59, 0);
-        flex: 1;
-        border: none;
-    }
-    
-    .campo__field--textarea {
-        height: 6.9em;
-    }
-    
-    .custom-btn-2 {
-        width: calc(11em + 1vw);
-        height: calc(2em + 1vw);
-        color: #fff;
-        border-radius: 2px;
-        font-family: 'Alegreya Sans', sans-serif;
-        font-weight: 700;
-        letter-spacing: 0.1rem;
-        font-size: calc(0.6rem + 1vw);
-        cursor: pointer;
-        transition: all 0.3s ease;
-        position: absolute;
-        top: 91%;
-        right: 8%;
-        display: inline-block;
-        outline: none;
-    }
-    /* 14 */
-    
-    .btn-14-2 {
-        background: var(--azul-rey);
-        border: none;
-        z-index: 1;
-    }
+}
+
+.redes-sociales-header i {
+    color: var(--gris-fuerte);
+    font-size: calc(0.8rem + 2vw);
+    margin-right: calc(0.2rem + 1vw);
+}
+
+
+/*END HEADER*/
+
+
+/*CONTACTO BANNER*/
+
+.contenedor-banner {
+    position: relative;
+}
+
+.decoracion-larga {
+    position: absolute;
+    top: 0;
+}
+
+.banner-principal {
+    position: relative;
+}
+
+.boton-contactanos-header {
+    position: absolute;
+    top: 67%;
+    left: 3%;
+}
+
+
+/* 11 */
+
+.custom-btn {
+    width: calc(11em + 1vw);
+    height: calc(2em + 1vw);
+    color: #fff;
+    border-radius: 2px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: calc(0.6rem + 1vw);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+}
+
+
+/* 14 */
+
+.btn-14 {
+    background: var(--azul-rey);
+    border: none;
+    z-index: 1;
+}
+
+.btn-14:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 2px;
+    background-color: var(--azul-footer);
+    background-image: linear-gradient(315deg, var(--azul-footer) 0%, var(--azul-rey) 74%);
+    7px 7px 20px 0px rgba(0,
+    0,
+    0,
+    .1),
+    4px 4px 5px 0px rgba(0,
+    0,
+    0,
+    .1);
+    transition: all 0.3s ease;
+}
+
+.btn-14:hover {
+    color: rgb(255, 255, 255);
+}
+
+.btn-14:hover:after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+}
+
+.btn-14:active {
+    top: 2px;
+}
+
+
+/*END CONTACTO BANNER*/
+
+
+/*MAIN-PAGINA PRICIPAL*/
+
+.contenedor-main {
+    position: relative;
+}
+
+.capsulas-farmasoma {
+    max-width: 50%;
+    position: absolute;
+    top: calc(-22.5em + 1vw);
+    left: calc(18em + 1vw);
+}
+
+.blue-box {
+    background-color: var(--azul-rey);
+    padding-bottom: calc(3em + 1vw);
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.blue-box img {
+    max-width: 100%;
+    position: relative;
+    top: 2rem;
+    opacity: 0.95;
+}
+
+.blue-box h1 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    text-align: right;
+    line-height: 1.15;
+    color: var(--gris-opaco);
+    letter-spacing: 0.1rem;
+    font-size: calc(1.8em + 1vw);
+    padding: calc(0.8em + 1vw) calc(1em + 1vw) calc(1em + 1vw) 0;
+    padding-bottom: 0;
+}
+
+.blue-box h3 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: calc(0.5em + 1vw);
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+    max-width: 89%;
+    margin: 0 auto;
+    word-spacing: 0.3rem;
+}
+
+.blue-box span {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.blanco-transparente {
+    color: rgb(255, 255, 255, 0.82) !important;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-upper {
+    text-transform: uppercase;
+}
+
+.principal-text {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.principal-text h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.15;
+    color: var(--gris-opaco);
+    letter-spacing: 0.1rem;
+    font-size: calc(1.8em + 1vw);
+}
+
+.principal-text span {
+    color: var(--azul-rey) !important;
+}
+
+
+/*END MAIN-PAGINA PRICIPAL*/
+
+
+/*INICIO PROPOSITOS FARMASOMA*/
+
+.banner-propositos {
+    position: relative;
+}
+
+.boton-contactanos-header-propositos {
+    position: absolute;
+    top: 76%;
+    left: 3%;
+}
+
+.box-contenedor-propositos {
+    padding-top: calc(1.2rem + 1vw);
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.pad-top-2rem {
+    padding-top: calc(2rem + 1.4vw);
+}
+
+.box-contenedor-propositos h2 {
+    color: var(--azul-rey);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bolder;
+    font-size: calc(.7rem + 2.8vw);
+}
+
+.box-contenedor-propositos p {
+    color: var(--azul-rey);
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: justify;
+    font-size: calc(.6rem + 1.4vw);
+}
+
+
+/*FIN PROPOSITOS FARMASOMA*/
+
+.principal-text p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    color: var(--azul-rey);
+    font-size: calc(0.8em + 1vw);
+    padding-top: 1.4rem;
+}
+
+
+/*END MAIN-PAGINA PRICIPAL*/
+
+
+/*PAGINA PRINCIPAL SEGUNDO DIV */
+
+.pastillas-inferior {
+    position: relative;
+}
+
+
+/*footer*/
+
+.contenedor-footer {
+    max-width: 100%;
+    position: absolute;
+}
+
+.top-footer {
+    padding: 1.1rem 0;
+    display: grid;
+    grid-template-columns: 60% 1% 40%;
+    border-radius: 15px;
+}
+
+.deep-footer {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.787);
+    background: gray;
+    height: 1.7rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+.linea-azul {
+    background-color: var(--azul-footer);
+    max-width: 1.2px;
+    max-height: 3rem;
+}
+
+.redes-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-footer i:not(:first-of-type) {
+    padding-left: 1.5rem;
+}
+
+.redes-footer i {
+    font-size: 1.6rem;
+    color: var(--azul-footer);
+}
+
+.text-footer {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    justify-content: left;
+    padding-left: 2rem;
+}
+
+
+/*CONTACTO*/
+
+
+/** Contacto **/
+
+.posicion-relativa {
+    position: relative;
+    max-width: 100%;
+}
+
+.blue-box-contacto {
+    background-color: var(--azul-rey);
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 5%;
+    padding: .5em;
+}
+
+.blue-box-contacto h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    font-size: calc(1.5em + 1vw);
+    padding-bottom: 0;
+}
+
+.formulario {
+    background-color: rgba(60, 60, 59, .10);
+    margin: 2rem auto;
+    width: 80%;
+    padding: calc(6.5rem + 3.5vw) calc(1.5rem + 1vw) calc(2rem + 6vw);
+    border-radius: 2%;
+    font-size: 1.7rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    position: relative;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: .7rem 1rem;
+    width: 100%;
+    background-color: rgba(60, 60, 59, .25);
+    border-radius: 5px;
+    height: 3em;
+}
+
+.campo span {
+    background-color: white;
+    border-radius: 50%;
+    min-width: 40px;
+    min-height: 40px;
+    color: var(--azul-rey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: calc(.5rem + 1vw);
+    font-size: calc(1.7rem + 1vh);
+}
+
+.campo-2 {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: .7rem 1rem;
+    width: 100%;
+    background-color: rgba(60, 60, 59, .25);
+    border-radius: 5px;
+    height: 8em;
+}
+
+.campo-2 span {
+    background-color: white;
+    border-radius: 50%;
+    min-width: 40px;
+    max-height: 40px;
+    color: var(--azul-rey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: calc(.5rem + 1vw);
+    font-size: calc(1.7rem + 1vh);
+}
+
+.formulario input::placeholder {
+    color: var(--azul-rey);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.formulario textarea::placeholder {
+    color: var(--azul-rey);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding-top: calc(.5rem + 1vw);
+    margin: 1rem .5rem;
+}
+
+.campo__field {
+    border-radius: 5%;
+    background-color: rgba(60, 60, 59, 0);
+    flex: 1;
+    border: none;
+}
+
+.campo__field--textarea {
+    height: 6.9em;
+}
+
+.custom-btn-2 {
+    width: calc(11em + 1vw);
+    height: calc(2em + 1vw);
+    color: #fff;
+    border-radius: 2px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: calc(0.6rem + 1vw);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 91%;
+    right: 8%;
+    display: inline-block;
+    outline: none;
+}
+
+
+/* 14 */
+
+.btn-14-2 {
+    background: var(--azul-rey);
+    border: none;
+    z-index: 1;
+}
+
+.redes-sociales-header i {
+    color: var(--gris-fuerte);
+    font-size: calc(0.8rem+2vw);
+    margin-right: calc(0.2rem+1vw);
+}
+
+.redes-sociales-header i:hover {
+    color: var(--azul-footer);
+}
+
+
+/*END HEADER*/
+
+
+/*CONTACTO BANNER*/
+
+.contenedor-banner {
+    position: relative;
+}
+
+.decoracion-larga {
+    position: absolute;
+    top: 0;
+}
+
+.banner-principal {
+    position: relative;
+}
+
+.boton-contactanos-header {
+    position: absolute;
+    top: 67%;
+    left: 3%;
+}
+
+
+/* 11 */
+
+.custom-btn {
+    width: calc(11em+1vw);
+    height: calc(2em+1vw);
+    color: #fff;
+    border-radius: 2px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: calc(0.6rem+1vw);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    -webkit-box-shadow: 0px 3px 46px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 46px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 46px -8px rgba(0, 0, 0, 0.75);
+}
+
+
+/* 14 */
+
+.btn-14 {
+    background: var(--azul-rey);
+    border: none;
+    z-index: 1;
+}
+
+.btn-14:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 2px;
+    background-color: var(--azul-footer);
+    background-image: linear-gradient(315deg, var(--azul-footer) 0%, var(--azul-rey) 74%);
+    7px 7px 20px 0px rgba(0,
+    0,
+    0,
+    .1),
+    4px 4px 5px 0px rgba(0,
+    0,
+    0,
+    .1);
+    transition: all 0.3s ease;
+}
+
+.btn-14:hover {
+    color: rgb(255, 255, 255);
+}
+
+.btn-14:hover:after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+}
+
+.btn-14:active {
+    top: 2px;
+}
+
+
+/*END CONTACTO BANNER*/
+
+
+/*MAIN-PAGINA PRICIPAL*/
+
+.contenedor-main {
+    position: relative;
+}
+
+.capsulas-farmasoma {
+    max-width: 34%;
+    position: absolute;
+    top: 40%;
+    left: 53%;
+}
+
+.blue-box {
+    background-color: var(--azul-rey);
+    padding-bottom: calc(3em+1vw);
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.blue-box img {
+    max-width: 100%;
+    position: relative;
+    top: 2rem;
+    opacity: 0.95;
+}
+
+.blue-box h1 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    text-align: right;
+    line-height: 1.15;
+    color: var(--gris-opaco);
+    letter-spacing: 0.1rem;
+    font-size: calc(1.8em+1vw);
+    padding: calc(0.8em+1vw) calc(1em+1vw) calc(1em+1vw) 0;
+    padding-bottom: 0;
+}
+
+.blue-box h3 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: calc(0.5em+1vw);
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+    max-width: 89%;
+    margin: 0 auto;
+    word-spacing: 0.3rem;
+}
+
+.blue-box span {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.blanco-transparente {
+    color: rgb(255, 255, 255, 0.82) !important;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-upper {
+    text-transform: uppercase;
+}
+
+.principal-text {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.principal-text h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.15;
+    color: var(--gris-opaco);
+    letter-spacing: 0.1rem;
+    font-size: calc(1.8em+1vw);
+}
+
+.principal-text span {
+    color: var(--azul-rey) !important;
+}
+
+
+/*END MAIN-PAGINA PRICIPAL*/
+
+
+/*INICIO PROPOSITOS FARMASOMA*/
+
+.banner-propositos {
+    position: relative;
+}
+
+.boton-contactanos-header-propositos {
+    position: absolute;
+    top: 76%;
+    left: 3%;
+}
+
+.box-contenedor-propositos {
+    padding-top: calc(1.2rem+1vw);
+    max-width: 75%;
+    margin: 0 auto;
+    padding-bottom: 20%;
+}
+
+.pad-top-2rem {
+    padding-top: calc(2rem+1.4vw);
+}
+
+.box-contenedor-propositos h2 {
+    color: var(--azul-rey);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bolder;
+    font-size: calc(.7rem+2.8vw);
+}
+
+.box-contenedor-propositos p {
+    color: var(--azul-rey);
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: justify;
+    font-size: calc(.6rem+1.4vw);
+}
+
+
+/*FIN PROPOSITOS FARMASOMA*/
+
+.principal-text p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    color: var(--azul-rey);
+    font-size: calc(0.8em+1vw);
+    padding-top: 1.4rem;
+    max-width: 80%;
+}
+
+
+/*END MAIN-PAGINA PRICIPAL*/
+
+
+/*PAGINA PRINCIPAL SEGUNDO DIV */
+
+.pastillas-inferior {
+    position: relative;
+}
+
+
+/*footer*/
+
+.contenedor-footer {
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top-footer {
+    padding: 0.5rem 0;
+    display: grid;
+    grid-template-columns: 60% 1% 40%;
+    background: #eae7e7;
+}
+
+.deep-footer {
+    font-size: calc(0.7em+1vw);
+    color: rgba(255, 255, 255, 0.787);
+    background: gray;
+    height: calc(2em+1vw);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: calc(1.1em+1vw);
+}
+
+.linea-azul {
+    background-color: var(--azul-footer);
+    max-width: 1.2px;
+    max-height: calc(5rem+1vw);
+}
+
+.redes-footer {
+    display: flex;
+    gap: 1.7em;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-footer i:not(:first-of-type) {
+    padding-left: 1.5rem;
+}
+
+.redes-footer i {
+    font-size: calc(1.6em+1vw);
+    color: var(--azul-footer);
+}
+
+.text-footer {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: calc(0.6em+1vw);
+    justify-content: left;
+    padding-left: calc(1.4em+1vw);
+}
+
+.contenedor-propositos {
+    width: 100%;
+    position: relative;
+}
+
+.propositos-grid {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    text-align: center;
+    padding-top: 1.5em;
+    top: 5%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.propositos-grid p {
+    font-family: 'Anton', sans-serif;
+    font-size: calc(1.5em+1vw);
+    color: rgb(255, 255, 255);
+}
+
+.pastillas-farmasoma {
+    position: relative;
+    z-index: -1;
+}
+
+.decoracion-larga-fin {
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+}
+
+.fondo-mision {
+    background-image: linear-gradient( rgba(0, 47, 100, 1), rgba(0, 47, 100, 0.8)), url(../img/capsulas-farmasoma.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border-radius: 50%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo-vision {
+    background-image: linear-gradient( rgba(0, 47, 100, 1), rgba(0, 47, 100, 0.8)), url(../img/capsulas-colores.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border-radius: 50%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo-valores {
+    background-image: linear-gradient( rgba(0, 47, 100, 1), rgba(0, 47, 100, 0.8)), url(../img/capsulas-colores.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border-radius: 50%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-contactanos {
+    position: absolute;
+    top: 67%;
+    left: 5%;
+}

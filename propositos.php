@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Propositos</title>
     <link rel="stylesheet" rel="preload" href="/css/style.css" media="all">
     <link rel="stylesheet" rel="preload" href="/css/normalize.css" media="all">
 </head>
@@ -13,10 +13,10 @@
     <?php include_once 'includes/templates/header.php';?>
     <div class="contenedor-banner">
         <div class="banner-propositos">
-            <img src="/img/farmasoma-propositos.jpg" alt="Banner farmasoma">
+            <img loading="lazy" src="/img/farmasoma-propositos.webp" alt="Banner farmasoma">
         </div>
         <div class="decoracion-larga">
-            <img src="/img/DECORACION-LARGA.png" alt="Decoración Larga">
+            <img loading="lazy" src="/img/DECORACION-LARGA.webp" alt="Decoración Larga">
         </div>
         <div class="boton-contactanos-header-propositos">
             <button class="custom-btn btn-14">Contáctanos</button>
@@ -37,8 +37,7 @@
         </div>
     </div>
     
-
-
+    <?php include_once 'includes/templates/footer.php';?>
     <script src="https://kit.fontawesome.com/3919625d45.js" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/3919625d45.js" crossorigin="anonymous"></script>
 </body>
 </html>
