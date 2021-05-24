@@ -322,36 +322,6 @@ img {
     position: absolute;
 }
 
-.top-footer {
-    padding: 1.1rem 0;
-    display: grid;
-    grid-template-columns: 60% 1% 40%;
-    border-radius: 15px;
-}
-
-.deep-footer {
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.787);
-    background: gray;
-    height: 1.7rem;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    padding-left: 3rem;
-}
-
-.linea-azul {
-    background-color: var(--azul-footer);
-    max-width: 1.2px;
-    max-height: 3rem;
-}
-
-.redes-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .redes-footer i:not(:first-of-type) {
     padding-left: 1.5rem;
 }
@@ -359,13 +329,6 @@ img {
 .redes-footer i {
     font-size: 1.6rem;
     color: var(--azul-footer);
-}
-
-.text-footer {
-    font-family: 'Alegreya Sans', sans-serif;
-    font-weight: 400;
-    justify-content: left;
-    padding-left: 2rem;
 }
 
 
@@ -407,6 +370,7 @@ img {
     font-size: 1.7rem;
     font-family: 'Alegreya Sans', sans-serif;
     position: relative;
+    margin-bottom: 28%;
 }
 
 .campo {
@@ -782,20 +746,20 @@ img {
 }
 
 .deep-footer {
-    font-size: calc(0.7em+1vw);
+    font-size: calc(0.7em + 1vw);
     color: rgba(255, 255, 255, 0.787);
     background: gray;
-    height: calc(2em+1vw);
+    height: calc(2em + 1vw);
     display: flex;
     justify-content: left;
     align-items: center;
-    padding-left: calc(1.1em+1vw);
+    padding-left: calc(1.1em + 1vw);
 }
 
 .linea-azul {
     background-color: var(--azul-footer);
     max-width: 1.2px;
-    max-height: calc(5rem+1vw);
+    max-height: calc(5rem + 1vw);
 }
 
 .redes-footer {
@@ -805,21 +769,17 @@ img {
     align-items: center;
 }
 
-.redes-footer i:not(:first-of-type) {
-    padding-left: 1.5rem;
-}
-
 .redes-footer i {
-    font-size: calc(1.6em+1vw);
+    font-size: calc(1.6em + 1vw);
     color: var(--azul-footer);
 }
 
 .text-footer {
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 400;
-    font-size: calc(0.6em+1vw);
+    font-size: calc(0.6em + 1vw);
     justify-content: left;
-    padding-left: calc(1.4em+1vw);
+    padding-left: calc(0.4em + 1vw);
 }
 
 .contenedor-propositos {
@@ -844,7 +804,7 @@ img {
 
 .propositos-grid p {
     font-family: 'Anton', sans-serif;
-    font-size: calc(1.5em+1vw);
+    font-size: calc(1.5em + 1vw);
     color: rgb(255, 255, 255);
 }
 

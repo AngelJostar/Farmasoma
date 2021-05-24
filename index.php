@@ -19,7 +19,7 @@
             <img loading="lazy" src="/img/DECORACION-LARGA.webp" alt="Decoración Larga">
         </div>
         <div class="boton-contactanos-header">
-            <a href=""><button class="custom-btn btn-14">Contáctanos</button></a>
+            <a href="/contacto"><button class="custom-btn btn-14">Contáctanos</button></a>
         </div>
     </div>
     <div >
@@ -48,17 +48,17 @@
         </main>
         <div class="contenedor-propositos">
             <div class="propositos-grid">
-                <a href="">
+                <a href="/propositos">
                     <div class="fondo-mision backgroud-image">
                         <p>Misión</p>
                     </div>
                 </a>
-                <a href="">
+                <a href="/propositos">
                     <div class="fondo-vision">
                         <p>Visión</p>
                     </div>
                 </a>
-                <a href="">
+                <a href="/propositos">
                     <div class="fondo-valores">
                         <p>Valores</p>
                     </div>
@@ -68,7 +68,7 @@
                 <img loading="lazy" src="/img/pastillas-farmasoma.webp" alt="Pastillas Farmasoma">
             </div>
             <div class="index-contactanos">
-                <a href=""><button class="custom-btn btn-14">Contáctanos</button></a>
+                <a href="/contacto"><button class="custom-btn btn-14">Contáctanos</button></a>
             </div>
         </div>
     </div>

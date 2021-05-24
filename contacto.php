@@ -13,10 +13,10 @@
     <?php include_once 'includes/templates/header.php';?>
     <div class="contenedor-banner">
         <div class="banner-propositos">
-            <img src="/img/banner-contacto.jpg" alt="Banner farmasoma">
+            <img loading="lazy" src="/img/banner-contacto.jpg" alt="Banner farmasoma">
         </div>
         <div class="decoracion-larga">
-            <img src="/img/DECORACION-LARGA.png" alt="Decoración Larga">
+            <img loading="lazy" src="/img/DECORACION-LARGA.png" alt="Decoración Larga">
         </div>
     </div>
 
@@ -68,7 +68,7 @@
         </form>
     </div>
 
-
+    <?php include_once 'includes/templates/footer.php';?>
     <script src="https://kit.fontawesome.com/3919625d45.js" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/3919625d45.js" crossorigin="anonymous"></script>
 </body>
 </html>
