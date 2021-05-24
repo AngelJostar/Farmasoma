@@ -6,9 +6,9 @@
     $telefono = $_POST["telefono"];
     $mensaje = $_POST["mensaje"]; 
     
-        $destino = "angelrojas@ciencias.unam.mx";   
+        $destino = "administracion@farmasoma.com.mx";   
         $contenido = "Nombre: " . $nombre . "\nEmail: " . $email . "\nTeléfono: " . $telefono  . "\nMensaje: " . $mensaje;
         mail($destino, "Contacto: ", $contenido);
-        header("Location: https://topbetas.com/");
+        header("Location: http://farmasoma.com.mx/");
 
 ?>

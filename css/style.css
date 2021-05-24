@@ -819,36 +819,36 @@ img {
 }
 
 .fondo-mision {
-    background-image: linear-gradient( rgba(0, 47, 100, 1), rgba(0, 47, 100, 0.8)), url(../img/capsulas-farmasoma.jpg);
+    background-image: linear-gradient( rgba(0, 47, 100, 1), rgba(0, 47, 100, 0.8)), url(../img/capsulas-farmasoma-cuadrado.webp);
     background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: 100%;
     border-radius: 50%;
-    height: 45%;
+    height: calc(10em + 1vw);
+    width: calc(10em + 1vw);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .fondo-vision {
-    background-image: linear-gradient( rgba(0, 47, 100, 1), rgba(0, 47, 100, 0.8)), url(../img/capsulas-colores.jpg);
+    background-image: linear-gradient( rgba(0, 47, 100, 1), rgba(0, 47, 100, 0.8)), url(../img/capsulas-colores-cuadrado.webp);
     background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: 100%;
     border-radius: 50%;
-    height: 45%;
+    height: calc(10em + 1vw);
+    width: calc(10em + 1vw);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .fondo-valores {
-    background-image: linear-gradient( rgba(0, 47, 100, 1), rgba(0, 47, 100, 0.8)), url(../img/capsulas-colores.jpg);
+    background-image: linear-gradient( rgba(0, 47, 100, 1), rgba(0, 47, 100, 0.8)), url(../img/capsulas-colores-cuadrado.webp);
     background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: 100%;
     border-radius: 50%;
-    height: 45%;
+    height: calc(10em + 1vw);
+    width: calc(10em + 1vw);
     display: flex;
     align-items: center;
     justify-content: center;
