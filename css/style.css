@@ -73,6 +73,10 @@ img {
     margin-right: calc(0.2rem + 1vw);
 }
 
+.redes-sociales-header i:hover {
+    color: var(--azul-footer);
+}
+
 
 /*END HEADER*/
 
@@ -115,6 +119,9 @@ img {
     position: relative;
     display: inline-block;
     outline: none;
+    -webkit-box-shadow: 0px 3px 46px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 46px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 46px -8px rgba(0, 0, 0, 0.75);
 }
 
 
@@ -173,10 +180,10 @@ img {
 }
 
 .capsulas-farmasoma {
-    max-width: 50%;
+    max-width: 34%;
     position: absolute;
     top: 40%;
-    left: 45%;
+    left: 53%;
 }
 
 .blue-box {

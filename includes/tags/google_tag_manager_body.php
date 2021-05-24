@@ -1,2 +1,2 @@
-<body >
+<body class="contenedor-principal">
     

@@ -13,20 +13,20 @@
     <?php include_once 'includes/templates/header.php';?>
     <div class="contenedor-banner">
         <div class="banner-principal">
-            <img src="/img/BANNER-FARMASOMA.png" alt="Banner farmasoma">
+            <img loading="lazy" src="/img/BANNER-FARMASOMA.webp" alt="Banner farmasoma">
         </div>
         <div class="decoracion-larga">
-            <img src="/img/DECORACION-LARGA.png" alt="Decoración Larga">
+            <img loading="lazy" src="/img/DECORACION-LARGA.webp" alt="Decoración Larga">
         </div>
         <div class="boton-contactanos-header">
-            <button class="custom-btn btn-14">Contáctanos</button>
+            <a href=""><button class="custom-btn btn-14">Contáctanos</button></a>
         </div>
     </div>
-    <div class="contenedor-principal">
+    <div >
         <main class="contenedor-main">
             <section class="blue-box">
                 <div>
-                    <img src="/img/capsulas-farmasoma.jpeg" alt="Capsulas de farmasoma">
+                    <img loading="lazy" src="/img/capsulas-farmasoma.webp" alt="Capsulas de farmasoma">
                 </div>
                 <div>
                     <h1><span>Comprometidos</span> <br> con la salud</h1>
@@ -34,7 +34,7 @@
                 </div>
             </section>
             <div class="capsulas-farmasoma">
-                <img src="/img/capsulas-farmasoma-proposito.png" alt="Capsulas de farmasoma proposito">
+                <img loading="lazy" src="/img/capsulas-farmasoma-proposito.webp" alt="Capsulas de farmasoma proposito">
             </div>
             <section class="principal-text">
                 <div>
@@ -65,10 +65,10 @@
                 </a>
             </div>
             <div class="pastillas-farmasoma">
-                <img src="/img/pastillas-farmasoma.png" alt="Pastillas Farmasoma">
+                <img loading="lazy" src="/img/pastillas-farmasoma.webp" alt="Pastillas Farmasoma">
             </div>
             <div class="index-contactanos">
-                <button class="custom-btn btn-14">Contáctanos</button>
+                <a href=""><button class="custom-btn btn-14">Contáctanos</button></a>
             </div>
         </div>
     </div>
