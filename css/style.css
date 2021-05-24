@@ -823,8 +823,8 @@ img {
     background-position: center center;
     background-size: 100%;
     border-radius: 50%;
-    height: calc(10em + 1vw);
-    width: calc(10em + 1vw);
+    height: 48%;
+    width: 97%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -835,8 +835,8 @@ img {
     background-position: center center;
     background-size: 100%;
     border-radius: 50%;
-    height: calc(10em + 1vw);
-    width: calc(10em + 1vw);
+    height: 48%;
+    width: 97%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -847,8 +847,8 @@ img {
     background-position: center center;
     background-size: 100%;
     border-radius: 50%;
-    height: calc(10em + 1vw);
-    width: calc(10em + 1vw);
+    height: 48%;
+    width: 97%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -858,4 +858,9 @@ img {
     position: absolute;
     top: 67%;
     left: 5%;
+}
+
+.centrar-a {
+    display: flex;
+    justify-content: center;
 }

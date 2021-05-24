@@ -49,17 +49,17 @@
         </main>
         <div class="contenedor-propositos">
             <div class="propositos-grid">
-                <a href="/propositos">
+                <a href="/propositos" class="centrar-a">
                     <div class="fondo-mision backgroud-image">
                         <p>Misión</p>
                     </div>
                 </a>
-                <a href="/propositos">
+                <a href="/propositos" class="centrar-a">
                     <div class="fondo-vision">
                         <p>Visión</p>
                     </div>
                 </a>
-                <a href="/propositos">
+                <a href="/propositos" class="centrar-a">
                     <div class="fondo-valores">
                         <p>Valores</p>
                     </div>
