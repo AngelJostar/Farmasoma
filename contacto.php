@@ -13,10 +13,10 @@
     <?php include_once 'includes/templates/header.php';?>
     <div class="contenedor-banner">
         <div class="banner-propositos">
-            <img loading="lazy" src="/img/banner-contacto.jpg" alt="Banner farmasoma">
+            <img loading="lazy" src="/img/banner-contacto.webp" alt="Banner farmasoma">
         </div>
         <div class="decoracion-larga">
-            <img loading="lazy" src="/img/DECORACION-LARGA.png" alt="Decoración Larga">
+            <img loading="lazy" src="/img/DECORACION-LARGA.webp" alt="Decoración Larga">
         </div>
     </div>
 
