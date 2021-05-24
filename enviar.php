@@ -9,6 +9,6 @@
         $destino = "angelrojas@ciencias.unam.mx";   
         $contenido = "Nombre: " . $nombre . "\nEmail: " . $email . "\nTeléfono: " . $telefono  . "\nMensaje: " . $mensaje;
         mail($destino, "Contacto: ", $contenido);
-        header("Location: /index.php/");
+        header("Location: https://topbetas.com/");
 
 ?>
