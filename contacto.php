@@ -25,7 +25,7 @@
         <div class= "blue-box-contacto">
             <h2>Es un placer saber más de ti.</h2>
         </div>
-        <form class="formulario">
+        <form class="formulario" action="/enviar.php" method="post">
             <div class="campo">
                 <span><i class="fas fa-user"></i></span>
                 <input 
