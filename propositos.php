@@ -19,7 +19,7 @@
             <img loading="lazy" src="/img/DECORACION-LARGA.webp" alt="Decoración Larga">
         </div>
         <div class="boton-contactanos-header-propositos">
-            <button class="custom-btn btn-14">Contáctanos</button>
+            <a href="/contacto"><button class="custom-btn btn-14">Contáctanos</button></a>
         </div>
     </div>
     <div class="box-contenedor-propositos">    
