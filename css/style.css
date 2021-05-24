@@ -458,7 +458,6 @@ img {
     cursor: pointer;
     transition: all 0.3s ease;
     position: absolute;
-    top: 91%;
     right: 8%;
     display: inline-block;
     outline: none;
