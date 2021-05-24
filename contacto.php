@@ -32,8 +32,7 @@
                     class="campo__field"
                     type="text" 
                     placeholder="Nombre" 
-                    id="nombre"
-                >
+                    id="nombre">
             </div>
             <div class="campo">
                 <span><i class="fas fa-envelope"></i></span>
@@ -41,8 +40,7 @@
                     class="campo__field"
                     type="email" 
                     placeholder="Correo" 
-                    id="email"
-                >
+                    id="email">
             </div>
             <div class="campo">
                 <span><i class="fas fa-phone fa-rotate-270"></i></span>
@@ -50,7 +48,7 @@
                     class="campo__field"
                     type="tel" 
                     placeholder="Telefono o Celular" 
-                    id="email"
+                    id="telefono"
                 >
             </div>
             <div class="campo-2">
