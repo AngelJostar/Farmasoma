@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<?php include_once 'includes/tags/google_tag_manager_head.php';?>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" rel="preload" href="/css/style.css" media="all">
+    <link rel="stylesheet" rel="preload" href="/css/normalize.css" media="all">
+</head>
+<?php include_once 'includes/tags/google_tag_manager_body.php';?>
+    
+    <?php include_once 'includes/templates/header.php';?>
+    <div class="contenedor-banner">
+        <div class="banner-propositos">
+            <img src="/img/banner-contacto.jpg" alt="Banner farmasoma">
+        </div>
+        <div class="decoracion-larga">
+            <img src="/img/DECORACION-LARGA.png" alt="Decoración Larga">
+        </div>
+    </div>
+
+    
+    <div class = "posicion-relativa">
+        <div class= "blue-box-contacto">
+            <h2>Es un placer saber más de ti.</h2>
+        </div>
+        <form class="formulario">
+            <div class="campo">
+                <span><i class="fas fa-user"></i></span>
+                <input 
+                    class="campo__field"
+                    type="text" 
+                    placeholder="Nombre" 
+                    id="nombre"
+                >
+            </div>
+            <div class="campo">
+                <span><i class="fas fa-envelope"></i></span>
+                <input 
+                    class="campo__field"
+                    type="email" 
+                    placeholder="Correo" 
+                    id="email"
+                >
+            </div>
+            <div class="campo">
+                <span><i class="fas fa-phone fa-rotate-270"></i></span>
+                <input 
+                    class="campo__field"
+                    type="tel" 
+                    placeholder="Telefono o Celular" 
+                    id="email"
+                >
+            </div>
+            <div class="campo-2">
+                <span><i class="fas fa-edit"></i></span>
+                <textarea 
+                    class="campo__field campo__field--textarea"
+                    placeholder="Mensaje" 
+                    id="mensaje"
+                ></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar" class="custom-btn-2 btn-14-2">
+            </div>
+        </form>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/3919625d45.js" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/3919625d45.js" crossorigin="anonymous"></script>
+</body>
+</html>
