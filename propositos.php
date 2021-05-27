@@ -30,7 +30,7 @@
         </div>
         <div class="pad-top-2rem">
             <h2 class="font-upper">Visión</h2>
-            <p>Ser la alternativa de distribución de meticamentos de todo tipo, así como la distribución de mezclas estériles mejor integrada y con cobertura nacional en todo México, reconocida por la alta preparación y capacidad profesional de su equipo y el mejor servicio y atención de la más alta calidad para tratar todo tipo de padecimientos.</p>
+            <p>Ser la alternativa de distribución de medicamentos de todo tipo, así como la distribución de mezclas estériles mejor integrada y con cobertura nacional en todo México, reconocida por la alta preparación y capacidad profesional de su equipo y el mejor servicio y atención de la más alta calidad para tratar todo tipo de padecimientos.</p>
         </div>
         <div class="pad-top-2rem">
             <h2 class="font-upper">Valores</h2>
