@@ -41,8 +41,11 @@
                 <div>
                     <h2><span>Firme propósito</span> <br> de garantizar la <br> mejor calidad en el servicio</h2>
                 </div>
-                <div>
-                    <p>Con un enfoque de calidad y firme propósito de mantenernos entre los primeros puestos del sector de la distribución farmacéutica a nivel nacional así como la distribución de preparaciones estériles oncológicas.</p>
+                <div class="contenedor-70">
+                    <p>"La oferta de servicios integrales de salud a instituciones públicas y privadas a nivel nacional e internacional"</p>
+                    <div class="contenedor-70--p">
+                        <p class= "">Dr. Wolfpert Wiechers<br><span class="font-bold--2"> Director comercial</span></p>
+                    </div>
                 </div>
             </section>
         </main>

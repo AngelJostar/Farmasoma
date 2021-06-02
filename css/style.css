@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 :root {
     --gris-fuerte: #b2b2b2;
@@ -363,13 +363,14 @@ img {
 }
 
 .principal-text h2 {
+    padding: 16vw 0 3vw 0;
     font-family: 'Anton', sans-serif;
     font-weight: 400;
     text-align: left;
     line-height: 1.15;
     color: var(--gris-opaco);
     letter-spacing: 0.1rem;
-    font-size: 7vw;
+    font-size: 6.5vw;
 }
 
 .principal-text span {
@@ -416,17 +417,36 @@ img {
     font-size: calc(.6rem + 1.4vw);
 }
 
-
-/*FIN PROPOSITOS FARMASOMA*/
+.contenedor-70 {
+    max-width: 70%;
+    margin: 0 auto;
+}
 
 .principal-text p {
     font-family: 'Alegreya Sans', sans-serif;
-    font-weight: 700;
+    font-weight: bold;
+    font-style: italic;
     color: var(--azul-rey);
-    font-size: 2.8vw;
+    font-size: 3.2vw;
     padding-top: 3.4vw;
     padding-bottom: 4.4vw;
 }
+
+.contenedor-70--p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-style: normal !important;
+}
+
+.font-bold--2 {
+    font-weight: 700;
+    font-size: 2.6vw;
+    text-align: left !important;
+}
+
+
+/*FIN PROPOSITOS FARMASOMA*/
 
 
 /*END MAIN-PAGINA PRICIPAL*/
@@ -701,7 +721,7 @@ img {
 .capsulas-farmasoma {
     max-width: 47%;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 51%;
 }
 
@@ -962,5 +982,8 @@ img {
     }
     .texto-imagen-covid-2 {
         left: 2rem;
+    }
+    .contenedor-70 {
+        max-width: 90%;
     }
 }
