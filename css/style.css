@@ -141,7 +141,7 @@ img {
     max-width: 50%;
     position: absolute;
     top: 19%;
-    left: 0;
+    left: 8px;
 }
 
 .texto-imagen-covid-2 h3 {
@@ -179,6 +179,7 @@ img {
     height: 1.7vw;
     background-color: var(--azul-rey);
     margin-top: 4vw;
+    right: 9px;
 }
 
 .medium-box-2 {
@@ -307,6 +308,7 @@ img {
     background-color: var(--azul-rey);
     padding-bottom: calc(4em + 1vw);
     max-width: 100%;
+    height: 93vw;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -314,6 +316,7 @@ img {
 .sub-blue-box {
     max-width: 90%;
     margin: 0 auto;
+    margin-top: 25vw;
 }
 
 .blue-box img {
@@ -330,14 +333,14 @@ img {
     line-height: 1.15;
     color: var(--gris-opaco);
     letter-spacing: 0.1rem;
-    font-size: 6.8vw;
+    font-size: 5.8vw;
     padding-bottom: 0;
     margin: 6vw 0 2vw 0;
 }
 
 .blue-box h3 {
     font-family: 'Alegreya Sans', sans-serif;
-    font-size: 2.4vw;
+    font-size: 2.3vw;
     font-weight: 400;
     color: #fff;
     text-align: left;
@@ -363,7 +366,7 @@ img {
 }
 
 .principal-text h2 {
-    padding: 16vw 0 3vw 0;
+    padding: 11vw 0 3vw 0;
     font-family: 'Anton', sans-serif;
     font-weight: 400;
     text-align: left;
@@ -423,8 +426,8 @@ img {
 }
 
 .principal-text p {
-    font-family: 'Alegreya Sans', sans-serif;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
     font-style: italic;
     color: var(--azul-rey);
     font-size: 3.2vw;
@@ -464,15 +467,6 @@ img {
 .contenedor-footer {
     max-width: 100%;
     position: absolute;
-}
-
-.redes-footer i:not(:first-of-type) {
-    padding-left: 1.5rem;
-}
-
-.redes-footer i {
-    font-size: 1.6rem;
-    color: var(--azul-footer);
 }
 
 
@@ -525,19 +519,21 @@ img {
     background-color: rgba(60, 60, 59, .25);
     border-radius: 5px;
     height: 3em;
+    align-items: center;
+    justify-content: center;
 }
 
 .campo span {
     background-color: white;
     border-radius: 50%;
-    min-width: 40px;
-    min-height: 40px;
+    width: 30px;
+    height: 30px;
     color: var(--azul-rey);
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: calc(.5rem + 1vw);
-    font-size: calc(1.7rem + 1vh);
+    font-size: calc(1rem + 1vh);
 }
 
 .campo-2 {
@@ -548,19 +544,20 @@ img {
     background-color: rgba(60, 60, 59, .25);
     border-radius: 5px;
     height: 8em;
+    justify-content: center;
 }
 
 .campo-2 span {
     background-color: white;
     border-radius: 50%;
-    min-width: 40px;
-    max-height: 40px;
+    width: 30px;
+    height: 30px;
     color: var(--azul-rey);
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: calc(.5rem + 1vw);
-    font-size: calc(1.7rem + 1vh);
+    font-size: calc(1rem + 1vh);
 }
 
 .formulario input::placeholder {
@@ -725,10 +722,15 @@ img {
     left: 51%;
 }
 
+.blue-box-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .blue-box img {
     max-width: 100%;
     position: relative;
-    top: 2rem;
     opacity: 0.95;
 }
 
@@ -750,6 +752,7 @@ img {
 
 .principal-text {
     max-width: 90%;
+    height: 93vw;
     margin: 0 auto;
     padding-top: 2rem;
 }
@@ -840,7 +843,6 @@ img {
 
 .redes-footer {
     display: flex;
-    gap: 1.7em;
     justify-content: center;
     align-items: center;
 }
@@ -848,6 +850,10 @@ img {
 .redes-footer i {
     font-size: calc(1.6em + 1vw);
     color: var(--azul-footer);
+}
+
+.redes-footer a:not(:first-of-type) {
+    padding-left: 1.5rem;
 }
 
 .text-footer {
@@ -917,7 +923,7 @@ img {
     grid-template-columns: repeat(3, 1fr);
     background-color: var(--azul-rey);
     max-width: 100%;
-    height: 70vw;
+    height: 93vw;
     align-items: center;
 }
 
@@ -939,7 +945,7 @@ img {
 }
 
 .contenedor-banner-contacto img {
-    height: 67vw;
+    height: 89vw;
     transform: scaleX(-1);
 }
 
@@ -965,7 +971,7 @@ img {
     }
     .capsulas-farmasoma {
         max-width: 43%;
-        top: 34%;
+        top: 41%;
         left: 55%;
     }
     .texto-imagen-covid h3 {
@@ -980,10 +986,19 @@ img {
     .contenedor-banner-contacto img {
         height: 55vw;
     }
-    .texto-imagen-covid-2 {
-        left: 2rem;
-    }
     .contenedor-70 {
         max-width: 90%;
+    }
+    .contenedor-propositos {
+        height: 73vw;
+    }
+    .blue-box {
+        height: 73vw;
+    }
+    .principal-text {
+        height: 73vw;
+    }
+    .sub-blue-box {
+        margin-top: 17vw;
     }
 }

@@ -26,7 +26,7 @@
     <div >
         <main class="contenedor-main">
             <section class="blue-box">
-                <div>
+                <div class="blue-box-imagen">
                     <img loading="lazy" src="/img/capsulas-farmasoma.webp" alt="Capsulas de farmasoma">
                 </div>
                 <div class="sub-blue-box">
@@ -44,7 +44,7 @@
                 <div class="contenedor-70">
                     <p>"La oferta de servicios integrales de salud a instituciones públicas y privadas a nivel nacional e internacional"</p>
                     <div class="contenedor-70--p">
-                        <p class= "">Dr. Wolfpert Wiechers<br><span class="font-bold--2"> Director comercial</span></p>
+                        <p><span class="font-bold--2">Dr. Wolfpert Wiechers </span><br> Director comercial</p>
                     </div>
                 </div>
             </section>
