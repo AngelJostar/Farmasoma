@@ -779,14 +779,39 @@ img {
 
 .flags {
     position: absolute;
-    top: 18%;
-    left: 64%;
+    top: 14%;
+    left: 67%;
 }
 
 .flags img {
+    max-width: 28%;
     display: inline;
-    max-width: 24%;
-    margin-right: 1.3vw;
+}
+
+.flags a:first-child {
+    margin-right: 0.7em;
+}
+
+.flags a:nth-child(2) {
+    margin-right: 0.7em;
+}
+
+@media (min-width:1200px) {
+    .flags {
+        position: absolute;
+        top: 2%;
+        left: 68%;
+    }
+    .flags img {
+        max-width: 28%;
+        display: inline;
+    }
+    .flags a:first-child {
+        margin-right: 1.1em;
+    }
+    .flags a:nth-child(2) {
+        margin-right: 1.1em;
+    }
 }
 
 .flags img:hover {
