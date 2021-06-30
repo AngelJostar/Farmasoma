@@ -19,6 +19,11 @@
         <div class="decoracion-larga">
             <img loading="lazy" src="/img/DECORACION-LARGA.webp" alt="Decoración Larga">
         </div>
+        <div class="flags">
+            <a  href="http://farmasoma.com.mx/"><img src="/img/Mexico.webp" alt="bandera de México"></a>
+            <a  href="https://en.farmasoma.com.mx/"><img src="/img/Reino-unido.webp" alt="bandera de Estados unidos"></a>
+            <a href="http://de.farmasoma.com.mx/"><img src="img/Suiza.webp" alt="Bandera de Suiza"></a>
+        </div>
         <div class="boton-contactanos-header-propositos">
             <a href="/contacto"><button class="custom-btn btn-14">Contáctanos</button></a>
         </div>
