@@ -779,31 +779,31 @@ img {
 
 .flags {
     position: absolute;
-    top: 14%;
-    left: 67%;
+    top: 3%;
+    left: 77%;
 }
 
 .flags img {
-    max-width: 28%;
+    max-width: 27%;
     display: inline;
 }
 
 .flags a:first-child {
-    margin-right: 0.7em;
+    margin-right: 0.2em;
 }
 
 .flags a:nth-child(2) {
-    margin-right: 0.7em;
+    margin-right: 0.2em;
 }
 
 @media (min-width:1200px) {
     .flags {
         position: absolute;
         top: 2%;
-        left: 68%;
+        left: 80%;
     }
     .flags img {
-        max-width: 28%;
+        max-width: 26%;
         display: inline;
     }
     .flags a:first-child {
